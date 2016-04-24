@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	text-align: center;
+	background-image: url(../images/bg/grey-linen.png);
+	background-repeat: repeat;
+}
+#wrapper {
+	position: relative;
+	text-align: left;
+	width: 978px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+/*	background-image: url(shadow-bg.jpg);
+	background-repeat:repeat-y;*/
+}
+
+/* #nav-bar {
+	border: 0;
+	background-color: #202020;
+	border-radius: 0px;
+	margin-bottom: 0;
+	height: 30px;
+}
+
+#nav-bar-menu {
+	color: white;
+	vertical-align: middle;
+} */
+
+.navbar-fixed {
+	top: 0;
+	z-index: 100;
+	position: fixed;
+	width: 780px;
+	color: white;
+	vertical-align: middle;
+}
+
+#main {
+ 	padding: 0 0 2px 0;
+	background-image: url(shadow-bottom.jpg);
+	background-repeat:no-repeat;
+	background-position: bottom left;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	box-shadow: 0 10px 16px 0 rgba(255,255,255,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#header {
+	background-image: url(../images/Banner2.png);
+	background-repeat:no-repeat;
+    height:220px;
+    position:relative;
+    border-bottom: 1px solid #ececec;
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#header h1 {
+	margin: 0;
+    padding: 0;
+	font-family: Bangers;
+    font-weight:normal;
+    color: #cb352d;
+    font-size: 190%;
+    position:absolute;
+    bottom: 4px;
+    right: 10px;
+}
+
+#content {
+	position: static;
+	float:left; /* right */
+    width: auto; /* 520 */
+	/* padding: 0 50px 0 50px; */
+	margin: 0 20px 0 20px;
+	/* border: 3px solid #73AD21; */
+}
+
+#content p {
+	font-size: 80%;
+	line-height: 1.8em;
+}
+
+#footer {
+	clear:both;
+    border-radius: 4px;
+    margin: 4px 10px 8px 10px;
+	border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+#box-green {
+	border-radius: 10px;
+    margin: 4px;
+	background-color: #4CAF50;
+    color: #ffffff;
+    padding: 15px;
+}
+
+#box-blue {
+	border-radius: 10px;
+    margin: 4px;
+	background-color: #32a4e7;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.lite-modal {
+  padding: 40px;
+  background-color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  line-height: 1.6em;
+}
